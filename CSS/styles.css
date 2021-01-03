@@ -1,0 +1,105 @@
+p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+  }
+  
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg,  #8f32c5, #864dd0bb, #ce208391, #ae25d0a6);
+    position: relative;
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+  }
+  
+.navbar {
+    font-size: 20px;
+}
+
+  @keyframes change {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  
+  p{
+      font-size: 35px;
+
+  }
+
+  .nav-tabs {
+    color: #fff;
+    background: linear-gradient(-45deg, #8f32c5, #864dd0, #ce2083, #ad25d0);
+    animation: change 10s ease-in-out infinite;
+    font-size: large;
+    margin-bottom: auto;
+  }
+
+  .lead{
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .row{
+      padding: 40px;
+      margin: 0px;
+  }
+
+  .btn-secondary {
+      margin: 10px;
+  }
+
+.what {
+  margin-left: 80px;
+}
+
+.theMessage {
+  padding: 20px;
+  display: none;
+  font-size: 30px;
+
+  
+}
+
+.nav-link-supprise {
+  display: none;
+}
+
+.display-3 {
+
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.viewCount {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.demo {
+
+}
+
+.waitMessage {
+  padding: 20px;
+  text-decoration: underline
+}
